@@ -1,8 +1,8 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxqCd1wsk2r31j73iY0RUFW-2rMLhdMnc1osjf_YduIyvPeArJVwyeEQXrwPdX2bjSaYw/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzHplLJfdWiN5guNui_mE3UoTP-4HPmwqIxD5VsYhROusJA8-w76NqTcd9L6AEeiQMEJA/exec';
 
 function handleSubmit(event, status, secao) {
     event.preventDefault();
-    fetch('https://script.google.com/macros/s/AKfycbxqCd1wsk2r31j73iY0RUFW-2rMLhdMnc1osjf_YduIyvPeArJVwyeEQXrwPdX2bjSaYw/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbzHplLJfdWiN5guNui_mE3UoTP-4HPmwqIxD5VsYhROusJA8-w76NqTcd9L6AEeiQMEJA/exec', {
         method: 'POST',
         body: JSON.stringify({
             status: status,
