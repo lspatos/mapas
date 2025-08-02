@@ -2,7 +2,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbxqCd1wsk2r31j73iY0RU
 
 function handleSubmit(event, status, secao) {
     event.preventDefault();
-    fetch(https://script.google.com/macros/s/AKfycbxqCd1wsk2r31j73iY0RUFW-2rMLhdMnc1osjf_YduIyvPeArJVwyeEQXrwPdX2bjSaYw/exec, {
+    fetch('https://script.google.com/macros/s/AKfycbxqCd1wsk2r31j73iY0RUFW-2rMLhdMnc1osjf_YduIyvPeArJVwyeEQXrwPdX2bjSaYw/exec', {
         method: 'POST',
         body: JSON.stringify({
             status: status,
